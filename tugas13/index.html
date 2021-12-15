@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            margin: auto;
+        }
+        .satu{
+            border: solid;
+            margin-top: 30px;
+            margin-left: 50px;
+            width: 200px;
+            height:200px;
+            border-image-source:url(hearts.png);
+            border-image-width:20px;
+            border-image-slice:20 22;
+            border-image-repeat: round;
+            border-image-outset: 20px;
+
+            background-color: red;
+            box-shadow: 20px 20px;
+        }
+        .dua {
+            border:solid;
+            border-image-source:url(border1.png);
+            border-image-width:20px;
+            border-image-slice:30 30;
+            border-image-repeat: round;
+            border-image-outset: 20px;
+
+            margin-top: 50px;
+            width:200px;
+            height:200px;
+            background-color: blue;
+            margin-left: 50px;
+            box-shadow:10px 10px 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="satu"></div>
+        <div class="dua"></div>
+    </div>
+</body>
+</html>
